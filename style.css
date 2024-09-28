@@ -1,0 +1,168 @@
+.gray-line {
+    width: 1500px;  /* Ширина лінії */
+    height: 150px;   /* Висота лінії */
+    background-color: gray;  /* Колір лінії */
+}
+
+.light-orange-line {
+    width: 1500px;  /* Ширина лінії */
+    height: 550px;   /* Висота лінії */
+    background-color: #ffc18a;  /* Колір лінії */
+}
+
+.pink1-line {
+    width: 1000px;  /* Ширина лінії */
+    height: 80px;   /* Висота лінії */
+    background-color: #ff8989;  /* Колір лінії */
+    margin: 0 250px; /* Відступи зліва та справа (50px) */
+
+
+    display: flex; /* Використання Flexbox */
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center; /* Вертикальне вирівнювання по центру */
+    text-align: center; /* Текст по центру всередині елемента */
+}
+
+.pink2-line {
+    width: 1000px;  /* Ширина лінії */
+    height: 1320px;   /* Висота лінії */
+    background-color: #ff8989;  /* Колір лінії */
+    margin: 0 250px; /* Відступи зліва та справа (50px) */
+}
+
+.green-line {
+    width: 1000px;  /* Ширина лінії */
+    height: 320px;   /* Висота лінії */
+    background-color: #60dea6;  /* Колір лінії */
+    margin: 0 250px; /* Відступи зліва та справа (50px) */
+    position: absolute; /* Абсолютне позиціонування */
+    top: 780px; /* Відступ зверху */
+
+
+    display: flex; /* Використання Flexbox */
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center; /* Вертикальне вирівнювання по центру */
+    text-align: center; /* Текст по центру всередині елемента */
+}
+
+.photo-line {
+    width: 360px;  /* Ширина лінії */
+    height: 360px;   /* Висота лінії */
+    background-color: #365afc;  /* Колір лінії */
+    left: 260px;
+    right: 500px;
+    top: 1200px; /* Відступ зверху */
+    position: absolute; /* Абсолютне позиціонування */
+
+
+    display: flex; /* Використання Flexbox */
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center; /* Вертикальне вирівнювання по центру */
+    text-align: center; /* Текст по центру всередині елемента */
+}
+
+.blue-line {
+    width: 600px;  /* Ширина лінії */
+    height: 360px;   /* Висота лінії */
+    background-color: #365afc;  /* Колір лінії */
+    left: 640px;
+    right: 20px;
+    top: 1200px; /* Відступ зверху */
+    position: absolute; /* Абсолютне позиціонування */
+
+
+    display: flex; /* Використання Flexbox */
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center; /* Вертикальне вирівнювання по центру */
+    text-align: center; /* Текст по центру всередині елемента */
+}
+
+.orange-line {
+    width: 1000px;  /* Ширина лінії */
+    height: 320px;   /* Висота лінії */
+    background-color: #ff9500;  /* Колір лінії */
+    position: absolute; /* Абсолютне позиціонування */
+    margin: 0 250px; /* Відступи зліва та справа (50px) */
+    position: absolute; /* Абсолютне позиціонування */
+    top: 1700px; /* Відступ зверху */
+}
+
+.dark-grey-line {
+    width: 1500px;  /* Ширина лінії */
+    height: 400px;   /* Висота лінії */
+    background-color: #2d2927;  /* Колір лінії */
+
+
+    display: flex; /* Використання Flexbox */
+    justify-content: center; /* Горизонтальне вирівнювання по центру */
+    align-items: center; /* Вертикальне вирівнювання по центру */
+    text-align: center; /* Текст по центру всередині елемента */
+}
+
+.gray-line p {
+    color: #000000;  /* Колір тексту */
+    font-size: 30px; /*визначає розмір шрифта */
+    left: 200px; /* Відступ зліва */
+    top: 40px; /* Відступ зверху */
+    position: absolute; /* Абсолютне позиціонування */
+    font-weight: bold; /* Жирний шрифт для тексту */
+}
+
+.light-orange-line p {
+    color: #000000;  /* Колір тексту */
+    font-size: 30px; /*визначає розмір шрифта */
+    left: 200px; /* Відступ зліва */
+    top: 350px; /* Відступ зверху */
+    position: absolute; /* Абсолютне позиціонування */
+    font-weight: bold; /* Жирний шрифт для тексту */
+}
+
+.pink1-line p {
+    font-size: 30px; /* Розмір шрифту, можна налаштувати */
+    font-weight: bold; /* Жирний шрифт для тексту */
+    color: rgb(0, 0, 0); /* Колір тексту, можна налаштувати */
+}
+
+.green-line p {
+    font-size: 30px; /* Розмір шрифту, можна налаштувати */
+    font-weight: bold; /* Жирний шрифт для тексту */
+    color: rgb(0, 0, 0); /* Колір тексту, можна налаштувати */
+}
+
+.photo-line p {
+    font-size: 20px; /* Розмір шрифту, можна налаштувати */
+    color: rgb(0, 0, 0); /* Колір тексту, можна налаштувати */
+}
+
+
+.blue-line p {
+    font-size: 30px; /* Розмір шрифту, можна налаштувати */
+    font-weight: bold; /* Жирний шрифт для тексту */
+    color: rgb(0, 0, 0); /* Колір тексту, можна налаштувати */
+}
+
+
+.pink2-line p {
+    color: #000000;  /* Колір тексту */
+    font-size: 30px; /*визначає розмір шрифта */
+    left: 650px; /* Відступ зліва */
+    top: 1620px; /* Відступ зверху */
+    position: absolute; /* Абсолютне позиціонування */
+    font-weight: bold; /* Жирний шрифт для тексту */
+}
+
+.orange-line p {
+    color: #000000;  /* Колір тексту */
+    font-size: 30px; /*визначає розмір шрифта */
+    left: 390px; /* Відступ зліва */
+    top: 60px; /* Відступ зверху */
+    position: absolute; /* Абсолютне позиціонування */
+    font-weight: bold; /* Жирний шрифт для тексту */
+}
+
+
+.dark-grey-line p {
+    font-size: 30px; /* Розмір шрифту, можна налаштувати */
+    font-weight: bold; /* Жирний шрифт для тексту */
+    color: rgb(255, 255, 255); /* Колір тексту, можна налаштувати */
+}
